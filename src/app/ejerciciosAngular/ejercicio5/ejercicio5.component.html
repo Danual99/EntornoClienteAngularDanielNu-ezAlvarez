@@ -1,0 +1,20 @@
+<div class="comentarios-container">
+    <h3>Comentarios</h3>
+    <form (ngSubmit)="enviarComentario()">
+      <input
+        type="text"
+        [(ngModel)]="comentario"
+        name="comentario"
+        placeholder="Escribe un comentario"
+        required
+      />
+      <button type="submit">Enviar</button>
+    </form>
+  
+    <ul>
+      <li *ngFor="let comentario of comentarios">
+        {{ comentario }}
+      </li>
+    </ul>
+  </div>
+  

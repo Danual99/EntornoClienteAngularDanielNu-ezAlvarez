@@ -1,0 +1,15 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+p{
+    font-size: 2em;
+    text-align: center;
+}  

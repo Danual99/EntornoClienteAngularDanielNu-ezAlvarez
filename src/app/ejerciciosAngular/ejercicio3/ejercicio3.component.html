@@ -1,0 +1,17 @@
+<div class="task-manager">
+    <h2>Lista de Tareas</h2>
+    <input 
+      type="text" 
+      [(ngModel)]="nuevaTarea" 
+      placeholder="Agregar nueva tarea" 
+    />
+    <button (click)="anyadirTarea()">Agregar</button>
+  
+    <ul>
+      <li *ngFor="let task of tareas; let i = index">
+        {{ task }}
+        <button (click)="eliminarTarea(i)">Eliminar</button>
+      </li>
+    </ul>
+  </div>
+  

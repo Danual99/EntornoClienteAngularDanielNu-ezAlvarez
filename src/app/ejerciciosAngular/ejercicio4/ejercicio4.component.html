@@ -1,0 +1,16 @@
+
+<div>
+    <h1>Temporizador de Cuenta Regresiva</h1>
+    <input
+      type="number"
+      placeholder="Ingresa el tiempo en segundos"
+      (input)="onTimeInput($event)" 
+    />
+    <button (click)="start()">Iniciar</button>
+    <button (click)="stop()">Detener</button>
+  
+    <div *ngIf="tiempoRestante >= 0">
+      <h2>Tiempo restante: {{ tiempoRestante }} segundos</h2>
+    </div>
+  </div>
+  
