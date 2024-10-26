@@ -1,0 +1,33 @@
+/* product-card.component.css */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    margin: 20px auto;
+    
+}
+  
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  
+.product-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+  
+.product-description {
+    color: #555;
+    margin: 8px 0;
+}
+  
+.product-price {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 8px;
+}
+  

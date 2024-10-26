@@ -6,12 +6,14 @@ import {Ejercicio2Component} from './ejerciciosAngular/ejercicio2/ejercicio2.com
 import { Ejercicio3Component } from './ejerciciosAngular/ejercicio3/ejercicio3.component';
 import { Ejercicio4Component } from './ejerciciosAngular/ejercicio4/ejercicio4.component';
 import { Ejercicio5Component } from './ejerciciosAngular/ejercicio5/ejercicio5.component';
+import { Ejercicio6Component } from './ejerciciosAngular/ejercicio6/ejercicio6.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Componente1Component,Ejercicio1Component,Ejercicio2Component,Ejercicio3Component,Ejercicio4Component,Ejercicio5Component],
+  imports: [RouterOutlet,Componente1Component,Ejercicio1Component,Ejercicio2Component,
+    Ejercicio3Component,Ejercicio4Component,Ejercicio5Component,Ejercicio6Component],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

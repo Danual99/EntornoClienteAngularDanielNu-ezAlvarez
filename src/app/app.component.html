@@ -12,6 +12,7 @@
     font-size: 2em;
     text-align: center;
   }
+  
 </style>
 
 <main class="main">
@@ -43,7 +44,8 @@
     <app-ejercicio4></app-ejercicio4>
   </div>
 
-  <div>
+  <div >
+    <h1>Ejercicio 5</h1>
     <app-ejercicio5 (comentarioEnviado)="onComentarioEnviado($event)"></app-ejercicio5>
   
     <ul>
@@ -52,6 +54,16 @@
       </li>
     </ul>
   </div>
+
+  <div>
+    <h1>Ejercicio 6</h1>
+    <app-ejercicio6 
+      [nombre]="'PS5 PRO'"
+      [descripcion]="'Consola de ultima generacion'"
+      [precio]="800">
+    </app-ejercicio6>
+  </div>
+  
   
   
   
